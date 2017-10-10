@@ -46,7 +46,7 @@ theme = "custom-elate"
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
-  enable = false
+    enable = false
 
   [[params.intro.item]]
     title = "Plan"
