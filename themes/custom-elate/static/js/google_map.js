@@ -49,7 +49,7 @@ function init() {
     new google.maps.Marker({
         position: new google.maps.LatLng(30.336590,-5.837210),
         map: map,
-        icon: 'images/loc.png'
+        icon: '/images/loc.png'
     });
 
 }
