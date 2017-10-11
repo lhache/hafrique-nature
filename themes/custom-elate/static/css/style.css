@@ -1,3 +1,12 @@
+.ContentPage #fh5co-home {
+  height: 1500px;
+  padding-top: 100px;
+}
+
+.ContentPage #fh5co-header {
+  margin-top: 0;
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");

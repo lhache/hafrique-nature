@@ -46,31 +46,33 @@ theme = "custom-elate"
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
-    enable = false
+    enable = true
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Get In Touch"
-    icon = "icon-bulb"
+    title = "Circuit 8 jours"
+    description = "Mamadou - Zagora Circuit"
+    url = "/tours/8days"
+    button = "Read more"
+    icon = "icon-map"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Click Me"
-    icon = "icon-wrench"
-    img = "img_8.jpg"
+    title = "Circuit 8 jours"
+    description = "Mamadou - Zagora Circuit"
+    url = "/tours/8days"
+    button = "Read more"
+    icon = "icon-map"
+    img = "img_7.jpg"
+
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
-    button = "Why us?"
-    icon = "icon-rocket"
-    img = "img_10.jpg"
+    title = "Circuit 8 jours"
+    description = "Mamadou - Zagora Circuit"
+    url = "/tours/8days"
+    button = "Read more"
+    icon = "icon-map"
+    img = "img_7.jpg"
+
 
   [params.intro.video]
     enable = false
@@ -291,7 +293,7 @@ theme = "custom-elate"
       name = "Brahim Ait Essaleh"
       position = "Certified guide"
       description = "Born in Zagora. Be ready to enjoy the desert with me."
-      img = "gallery/gallery_1.jpeg"
+      img = "images/gallery/gallery_1.jpeg"
       alt = "Brahim"
 
   # Counters section
