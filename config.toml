@@ -125,8 +125,8 @@ theme = "custom-elate"
   # Work section
   [params.gallery]
     enable = true
-    title = "Gallery"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "gallery.title"
+    description = "gallery.description"
 
     [[params.gallery.row]]
       img = "gallery_1.jpeg"
