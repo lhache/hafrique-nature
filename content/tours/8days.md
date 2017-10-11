@@ -1,7 +1,7 @@
 ---
 title: "8days"
 date: 2017-10-11T11:06:18+02:00
-draft: true
+draft: false
 ---
 
 # Mamadou - Zagora Circuit (8 days)
