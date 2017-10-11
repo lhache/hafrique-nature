@@ -2,7 +2,7 @@
 title: "8days"
 date: 2017-10-11T11:06:18+02:00
 draft: false
-slug: "height-days-circuit"
+slug: "circuit-8"
 ---
 
 # Mamadou - Zagora Circuit (8 days)
