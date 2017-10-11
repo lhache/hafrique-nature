@@ -58,11 +58,16 @@
                     </span></a></li>
                     {{ end }}
 
-                    {{ range .Site.Menus.postpend }}
-                        <li><a href="{{ .URL }}"><span>
-                        {{ .Name | markdownify }}
-                        </span></a></li>
-                    {{ end }}
+                    <li>
+                      <a href="/"
+                      style="display:inline-block; padding: 17.5px 0; color: #52d3aa; font-weight: bold;">
+                        <span>&nbsp;FR&nbsp;</span>
+                      </a>
+                      <a href="/en"
+                      style="display:inline-block; padding: 17.5px 0; color: #52d3aa; font-weight: bold;">
+                        <span>&nbsp;EN&nbsp;</span>
+                      </a>
+                    </li>
                 </ul>
             </div>
         </nav>

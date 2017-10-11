@@ -1,8 +1,28 @@
 # Page settings
 baseurl = "localhost:1313"
 title = "Afrique Nature"
-languageCode = "en-us"
+languageCode = "fr-FR"
 theme = "custom-elate"
+
+[menus]
+# You can add custom links before or after the default links
+# Assign a weight to define the order
+
+# prepended links
+#[[menu.prepend]]
+#  url = "http://gohugo.io"
+#  name = "Hugo"
+#  weight = 10
+
+# postpended links
+[[menu.postpend]]
+ url = "/"
+ name = "EN"
+ weight = 10
+[[menu.postpend]]
+ url = "/fr"
+ name = "FR"
+ weight = 100
 
 [params]
 
@@ -23,20 +43,6 @@ theme = "custom-elate"
     about = "nav.about"
     contact = "nav.contact"
 
-    # You can add custom links before or after the default links
-    # Assign a weight to define the order
-
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
-
-    # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
 
   # Hero section
   [params.hero]
@@ -362,13 +368,12 @@ theme = "custom-elate"
 
 
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "fr"
 
 [Languages]
-[Languages.en]
+[Languages.fr]
 title = "Afrique Nature"
 weight = 1
-
-[Languages.fr]
+[Languages.en]
 title = "Afrique Nature"
 weight = 2
