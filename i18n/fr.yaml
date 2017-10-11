@@ -1,16 +1,16 @@
-- id: Home
+- id: nav.home
   translation: "Accueil"
-- id: Work
+- id: nav.work
   translation: "Work"
-- id: Testimonials
+- id: nav.testimonials
   translation: "Livre d'or"
-- id: Services
+- id: nav.services
   translation: "Services"
-- id: Gallery
+- id: nav.gallery
   translation: "Gallerie"
-- id: About
+- id: nav.about
   translation: "A propos"
-- id: Contact
+- id: nav.contact
   translation: "Contact"
 
 - id: 'hero.subtitle'

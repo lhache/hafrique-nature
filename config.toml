@@ -15,13 +15,13 @@ theme = "custom-elate"
   # Navigation
   [params.navigation]
     brand = "afrique nature"
-    home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
-    services = "Services"
-    gallery = "Gallery"
-    about = "About"
-    contact = "Contact"
+    home = "nav.home"
+    work = "nav.work"
+    testimonials = "nav.testimonials"
+    services = "nav.services"
+    gallery = "nav.gallery"
+    about = "nav.about"
+    contact = "nav.contact"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
