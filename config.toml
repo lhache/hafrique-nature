@@ -216,17 +216,17 @@ theme = "custom-elate"
       # img = "person1.jpg"
       # alt = "Person1"
 
-    [[params.testimonials.item]]
-      quote = "testimonials.item2.quote"
-      person = 'Louis H.'
-      # img = "person2.jpg"
-      # alt = "Person2"
+    # [[params.testimonials.item]]
+    #   quote = "testimonials.item2.quote"
+    #   person = 'Louis H.'
+    #   # img = "person2.jpg"
+    #   # alt = "Person2"
 
-    [[params.testimonials.item]]
-      quote = "testimonials.item3.quote"
-      person = 'Louis H.'
-      # img = "person3.jpg"
-      # alt = "Person3"
+    # [[params.testimonials.item]]
+    #   quote = "testimonials.item3.quote"
+    #   person = 'Louis H.'
+    #   # img = "person3.jpg"
+    #   # alt = "Person3"
 
 
 
