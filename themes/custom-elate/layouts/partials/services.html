@@ -2,10 +2,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class=" left-border to-animate">{{ with .Site.Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
+					<h2 class=" left-border to-animate">{{ i18n .Site.Params.services.title | markdownify }}</h2>
 					<div class="row">
 						<div class="col-md-12 subtext to-animate text-center">
-							<h3>{{ with .Site.Params.services.description }}{{ . | markdownify }}{{ end }}</h3>
+							<h3>{{ i18n .Site.Params.services.description | markdownify }}</h3>
 						</div>
 					</div>
 				</div>
@@ -14,8 +14,8 @@
 			{{ range .Site.Params.services.item }}
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate text-center">
 					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
-					<h3>{{ .title | markdownify }}</h3>
-					<p class="text-justify">{{ .description | markdownify }}</p>
+					<h3>{{ i18n .title | markdownify }}</h3>
+					<p class="text-justify">{{ i18n .description | markdownify }}</p>
 				</div>
 				<div class="clearfix visible-sm-block"></div>
 			{{ end }}
@@ -23,10 +23,10 @@
 
 			<div class="row">
 				<div class="col-md-12 section-heading text-left">
-					<h2 class=" left-border to-animate">{{ with .Site.Params.passion.title }}{{ . | markdownify }}{{ end }}</h2>
+					<h2 class=" left-border to-animate">{{ i18n .Site.Params.passion.title | markdownify }}</h2>
 					<div class="row">
 						<div class="col-md-8 subtext to-animate">
-							<h3>{{ with .Site.Params.passion.description }}{{ . | markdownify }}{{ end }}</h3>
+							<h3>{{ i18n .Site.Params.passion.description | markdownify }}</h3>
 						</div>
 					</div>
 				</div>
@@ -35,8 +35,8 @@
 			{{ range .Site.Params.passion.item }}
 				<div class="col-md-4 col-sm-4 fh5co-service to-animate text-center">
 					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
-					<h3>{{ .title | markdownify }}</h3>
-					<p class="text-justify">{{ with .description }}{{ . | markdownify }}{{ end }}</p>
+					<h3>{{ i18n .title | markdownify }}</h3>
+					<p class="text-justify">{{ i18n .description | markdownify }}</p>
 				</div>
 				<div class="clearfix visible-sm-block"></div>
 			{{ end }}

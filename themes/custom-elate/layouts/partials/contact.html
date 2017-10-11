@@ -2,10 +2,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">{{ with .Site.Params.contact.title }}{{ . | markdownify }}{{ end }}</h2>
+					<h2 class="to-animate">{{ i18n .Site.Params.contact.title | markdownify }}</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>{{ with .Site.Params.contact.description }}{{ . | markdownify }}{{ end }}</h3>
+							<h3>{{ i18n .Site.Params.contact.description | markdownify }}</h3>
 						</div>
 					</div>
 				</div>
@@ -24,31 +24,23 @@
 					<h3>{{ with .Site.Params.contact.form }}{{ . | markdownify }}{{ end }}</h3>
 					<form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
 					<div class="form-group ">
-						{{ with .Site.Params.contact.name }}
-						<label for="name" class="sr-only">{{ . | markdownify }}</label>
-						<input id="name" class="form-control" name="name" placeholder="{{ . }}" type="text">
-						{{ end }}
+						<label for="name" class="sr-only">{{ i18n .Site.Params.contact.name | markdownify }}</label>
+						<input id="name" class="form-control" name="name" placeholder="{{ i18n .Site.Params.contact.name }}" type="text">
 					</div>
 					<div class="form-group ">
-						{{ with .Site.Params.contact.email }}
-						<label for="email" class="sr-only">{{ . | markdownify }}</label>
-						<input id="email" class="form-control" name="_replyto" placeholder="{{ . }}" type="email">
-						{{ end }}
+						<label for="email" class="sr-only">{{ .Site.Params.contact.email | markdownify }}</label>
+						<input id="email" class="form-control" name="_replyto" placeholder="{{ i18n .Site.Params.contact.email }}" type="email">
 					</div>
 					<div class="form-group ">
-						{{ with .Site.Params.contact.phone }}
-						<label for="phone" class="sr-only">{{ . | markdownify }}</label>
-						<input id="phone" class="form-control" name="phone" placeholder="{{ . }}" type="text">
-						{{ end }}
+						<label for="phone" class="sr-only">{{ i18n .Site.Params.contact.phone | markdownify }}</label>
+						<input id="phone" class="form-control" name="phone" placeholder="{{ i18n .Site.Params.contact.phone }}" type="text">
 					</div>
 					<div class="form-group ">
-						{{ with .Site.Params.contact.message }}
-						<label for="message" class="sr-only">{{ . | markdownify }}</label>
-						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ . }}"></textarea>
-						{{ end }}
+						<label for="message" class="sr-only">{{ i18n .Site.Params.contact.message | markdownify }}</label>
+						<textarea id="message" cols="30" rows="5" class="form-control" name="message" placeholder="{{ i18n .Site.Params.contact.message }}"></textarea>
 					</div>
 					<div class="form-group ">
-						<input class="btn btn-primary btn-lg" value="{{ .Site.Params.contact.button | markdownify }}" type="submit">
+						<input class="btn btn-primary btn-lg" value="{{ i18n .Site.Params.contact.button | markdownify }}" type="submit">
 					</div>
 					</form>
 				</div>

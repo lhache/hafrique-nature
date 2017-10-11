@@ -1,5 +1,39 @@
 - id: subtitle
   translation: "Inspiration für gutes Spielzeug"
+
+- id: Home
+  translation: "Home"
+- id: Work
+  translation: "Work"
+- id: Testimonials
+  translation: "Testimonials"
+- id: Services
+  translation: "Services"
+- id: Gallery
+  translation: "Gallery"
+- id: About
+  translation: "About"
+- id: Contact
+  translation: "Contact"
+
+- id: "hero.subtitle"
+  translation: "Join the family Mamadou for a truly magical experience in the Sahara desert. This family business has seen three generations and can offer a real experience in contrast to some of the commercial alternatives."
+
+- id: "intro.readMore"
+  translation: "Read more"
+- id: "intro.circuit1.title"
+  translation: "Circuit 8 jours"
+- id: "intro.circuit1.description"
+  translation: "Mamadou - Zagora Circuit"
+- id: "intro.circuit2.title"
+  translation: "Circuit 8 jours"
+- id: "intro.circuit2.description"
+  translation: "Mamadou - Zagora Circuit"
+- id: "intro.circuit3.title"
+  translation: "Circuit 8 jours"
+- id: "intro.circuit3.description"
+  translation: "Mamadou - Zagora Circuit"
+
 - id: contactName
   translation: "Name"
 - id: contactEmail

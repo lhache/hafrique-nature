@@ -2,10 +2,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>
+					<h2 class="to-animate">{{ i18n .Site.Params.about.title }}</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>{{ with .Site.Params.about.description }}{{ . | markdownify }}{{ end }}</h3>
+							<h3>{{ i18n .Site.Params.about.description }}</h3>
 						</div>
 					</div>
 				</div>
@@ -16,7 +16,7 @@
 					<div class="fh5co-person text-center to-animate">
 						<figure><img src={{ .img | relURL }} alt="{{ .alt }}"></figure>
 						<h3 style="margin-top: 30px;">{{ .name | markdownify }}</h3>
-						<span class="fh5co-position">{{ .position | markdownify }}</span>
+						<span class="fh5co-position">{{ i18n .position | markdownify }}</span>
 						<p>{{ .description | markdownify }}</p>
 						<ul class="social social-circle">
 						{{ range .social }}

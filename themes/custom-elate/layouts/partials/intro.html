@@ -8,9 +8,9 @@
 					<div class="overlay"></div>
 					<div class="fh5co-text">
 						<i class="fh5co-intro-icon {{ .icon }}"></i>
-						<h2>{{ .title }}</h2>
-						<p>{{ .description }}</p>
-						<p><a href="{{ .url }}" class="btn btn-primary">{{ .button}}</a></p>
+						<h2>{{ i18n .title }}</h2>
+						<p>{{ i18n .description }}</p>
+						<p><a href="{{ .url | relLangURL }}" class="btn btn-primary">{{ i18n "intro.readMore" }}</a></p>
 					</div>
 				</div>
 				{{ end }}

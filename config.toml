@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
+title = "Afrique Nature"
 languageCode = "en-us"
 theme = "custom-elate"
 
@@ -41,7 +41,6 @@ theme = "custom-elate"
   # Hero section
   [params.hero]
     title = "afrique nature"
-    subtitle = 'Join the family Mamadou for a truly magical experience in the Sahara desert. This family business has seen three generations and can offer a real experience in contrast to some of the commercial alternatives.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -49,16 +48,16 @@ theme = "custom-elate"
     enable = true
 
   [[params.intro.item]]
-    title = "Circuit 8 jours"
-    description = "Mamadou - Zagora Circuit"
+    title = "intro.circuit1.title"
+    description = "intro.circuit1.description"
     url = "/tours/8days"
     button = "Read more"
     icon = "icon-map"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Circuit 8 jours"
-    description = "Mamadou - Zagora Circuit"
+    title = "intro.circuit2.title"
+    description = "intro.circuit2.description"
     url = "/tours/8days"
     button = "Read more"
     icon = "icon-map"
@@ -66,8 +65,8 @@ theme = "custom-elate"
 
 
   [[params.intro.item]]
-    title = "Circuit 8 jours"
-    description = "Mamadou - Zagora Circuit"
+    title = "intro.circuit3.title"
+    description = "intro.circuit3.description"
     url = "/tours/8days"
     button = "Read more"
     icon = "icon-map"
@@ -84,45 +83,45 @@ theme = "custom-elate"
   # Work section
   [params.work]
     enable = true
-    title = "Our promise to you"
-    description = "Professional service, in respect of the humans and the nature"
+    title = "work.title"
+    description = "work.description"
     footertext = ''
 
     [[params.work.row]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Authenticity"
-      subtitle = "In all cases you are accompanied by true people of the desert, descendants of the nomad tribes who know the desert like the back of their hands. Rest assured, you will never get lost."
+      title = "work.item1.title"
+      subtitle = "work.item1.description"
 
     [[params.work.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Ecology"
-      subtitle = "The family Mamadou are concerned for the future of the desert and we make sure that we leave it as we find it; you will find us very careful not to harm the environment. Once the excursion is finished, all rubbish is disposed of appropriately. Because we care."
+      title = "work.item2.title"
+      subtitle = "work.item2.description"
 
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Local guides"
-      subtitle = "You will be accompanied by (depending on the size of your group), a guide, a cook and a camel driver. All people come from the region and know the desert better than their pocket. With them, there is no way you can get lost in the dunes."
+      title = "work.item3.title"
+      subtitle = "work.item3.description"
 
     [[params.work.row]]
       img = "work_5.jpg"
       alt = "Image5"
-      title = "Atmosphere"
-      subtitle = "Join us in the ambience and romance of the desert, witness the fire flickering and dancing following the sounds and rhythms of the songs. Singing, speaking, listening, interacting, discovering... Another way of living. When the time comes, either retire to your tent and join the God of dreams or spend the night under the stars."
+      title = "work.item4.title"
+      subtitle = "work.item4.description"
 
     [[params.work.row]]
       img = "work_6.jpg"
       alt = "Image6"
-      title = "Nature"
-      subtitle = "You will be surrounded with transcending nature. The Sahara desert is a marvel of our planet. We can't describe you how you will feel, this is something you have to live by yourself to understand why the locals, despite harsh conditions, love this place. "
+      title = "work.item5.title"
+      subtitle = "work.item5.description"
 
       [[params.work.row]]
         img = "work_4.jpg"
         alt = "Image4"
-        title = "Food"
-        subtitle = "Enjoy the hospitality of the family Mamadou. At night, sometimes, you will sit around the fire and you'll taste food lovingly prepared. They taste totally different in the desert! After having sampled lamb tajines, fresh vegetables, Moroccan salad, bread cooked in the sand and of course, the couscous of the Sahara (semolina prepared by hand). It will seem to you that all previous dishes are tasteless in comparison."
+        title = "work.item6.title"
+        subtitle = "work.item6.description"
   # Work section
   [params.gallery]
     enable = true
@@ -208,23 +207,23 @@ theme = "custom-elate"
   # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Testimonials"
-    description = "None of them has ever managed to reach Timbuktu but it seems they enjoyed the experience."
+    title = "testimonials.title"
+    description = "testimonials.description"
 
     [[params.testimonials.item]]
-      quote = "lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies"
+      quote = "testimonials.item1.quote"
       person = 'Louis H.'
       # img = "person1.jpg"
       # alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "Super mega cool lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies"
+      quote = "testimonials.item2.quote"
       person = 'Louis H.'
       # img = "person2.jpg"
       # alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies"
+      quote = "testimonials.item3.quote"
       person = 'Louis H.'
       # img = "person3.jpg"
       # alt = "Person3"
@@ -235,58 +234,58 @@ theme = "custom-elate"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "You can choose to cover the desert by foot (trekking), on the back of a dromedary (domestic from Africa) or by 4x4. You can travel on your own, as a couple, as a family or with friends or colleagues, whatever you wish. The family Mamadou can create your own program; your wish is our desire."
+    title = "services.title"
+    description = "services.description"
 
     [[params.services.item]]
-      title = "Adapted"
-      description = "Tours adapted to your physical capabilities, answering to your needs. We await your requirements."
+      title = "services.item1.title"
+      description = "services.item1.description"
       icon = "icon-magic-wand"
     [[params.services.item]]
-      title = "Camping"
-      description = "Camping in the heart of the dune Lemraire (10km after the door of the desert), Chegaga (The mother of the sand)."
+      title = "services.item2.title"
+      description = "services.item2.description"
       icon = "icon-bed"
     [[params.services.item]]
-      title = "Comfort"
-      description = "Comfortable beds, toilets, showers and a hammam (Turkish bath) facilities at Chegaga."
+      title = "services.item3.title"
+      description = "services.item3.description"
       icon = "icon-fire"
     [[params.services.item]]
-      title = "Care"
-      description = "Attentive staff always available to ensure your perfect holiday experience."
+      title = "services.item4.title"
+      description = "services.item4.description"
       icon = "icon-eye"
     [[params.services.item]]
-      title = "Entertainment"
-      description = "Entertainment and catering on site: local dishes, jokes, music."
+      title = "services.item5.title"
+      description = "services.item5.description"
       icon = "icon-video2"
     [[params.services.item]]
-      title = "Local"
-      description = "Authentic tents, traditional clothing, music from Berbers, Nomads and Harratines (3 tribes from the Drâa valley), a choice of meals to fulfill your dietary requirements. It's up to you."
+      title = "services.item6.title"
+      description = "services.item6.description"
       icon = "icon-like"
 
 
   # Services section
   [params.passion]
     enable = true
-    title = "If you are passionate about..."
-    description = "The desert offer many wonders. Just adventure and capture them."
+    title = "passion.title"
+    description = "passion.description"
 
     [[params.passion.item]]
-      title = "Photography"
-      description = "The desert opens its arms to you. Don't miss the magnificent sunrises and sunsets, the incredible dunes, the beautiful trees and shrubs and of course, the brilliance of the nights with a full moon. It is worth having all these simple and magical moments you experience, as part of your personal collection, to give you another vision of the world."
+      title = "passion.item1.title"
+      description = "passion.item1.description"
       icon = "icon-camera"
     [[params.passion.item]]
-      title = "Astronomy"
-      description = "The nights of the desert offer all the opportunities for those who are passionate about the stars. Once comfortably settled in a dune, you can study without light pollution, the sky and its constellations. The desert is truly another planet."
+      title = "passion.item2.title"
+      description = "passion.item2.description"
       icon = "icon-star"
     [[params.passion.item]]
-      title = "Geology"
-      description = "Spend a day to search for those fossils either by foot, a short distance from our camp or by 4x4 to the crystal mountains. Our guides will lead you to the best places for beautiful discoveries (ancient rock drawings, meet rare birds and wild animals in the nature)."
+      title = "passion.item3.title"
+      description = "passion.item3.description"
       icon = "icon-cube"
 
   # About section
   [params.about]
     enable = true
-    title = "About"
+    title = "about.title"
     description = ""
 
     [[params.about.item]]
@@ -338,8 +337,8 @@ theme = "custom-elate"
   [params.contact]
     enable = true
     map = true
-    title = "Get in touch"
-    description = "Afrique Nature - Brahim Ait Essaleh"
+    title = "contact.title"
+    description = "contact.description"
 
     # Available icons: http://simplelineicons.com/
     details = [
@@ -349,11 +348,11 @@ theme = "custom-elate"
         ["icon-globe", '<a href="http://www.afrique-nature.com" target="_blank">www.afrique-nature.com</a>']
       ]
 
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    name = "contact.name"
+    email = "contact.email"
+    phone = "contact.phone"
+    message = "contact.message"
+    button = "contact.submit"
 
   # Footer section
   [params.footer]
@@ -363,20 +362,13 @@ theme = "custom-elate"
 
 
 
-
-
-
-
-
-
-
 DefaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
-title = "The Better Play"
+title = "Afrique Nature"
 weight = 1
 
-[Languages.de]
-title = "The Better Play"
+[Languages.fr]
+title = "Afrique Nature"
 weight = 2

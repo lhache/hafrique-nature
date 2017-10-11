@@ -1,22 +1,146 @@
-- id: subtitle
-  translation: "Inspiration für gutes Spielzeug"
-- id: contactName
+- id: Home
+  translation: "Home"
+- id: Work
+  translation: "Work"
+- id: Testimonials
+  translation: "Testimonials"
+- id: Services
+  translation: "Services"
+- id: Gallery
+  translation: "Gallery"
+- id: About
+  translation: "About"
+- id: Contact
+  translation: "Contact"
+
+- id: 'hero.subtitle'
+  translation: "Join the family Mamadou for a truly magical experience in the Sahara desert. This family business has seen three generations and can offer a real experience in contrast to some of the commercial alternatives."
+
+- id: "intro.readMore"
+  translation: "Read more"
+- id: "intro.circuit1.title"
+  translation: "Circuit 8 days"
+- id: "intro.circuit1.description"
+  translation: "Mamadou - Zagora Circuit"
+- id: "intro.circuit2.title"
+  translation: "Circuit 8 days"
+- id: "intro.circuit2.description"
+  translation: "Mamadou - Zagora Circuit"
+- id: "intro.circuit3.title"
+  translation: "Circuit 8 days"
+- id: "intro.circuit3.description"
+  translation: "Mamadou - Zagora Circuit"
+
+- id: "work.title"
+  translation: "Our promise to you"
+- id: "work.description"
+  translation: "Professional service, in respect of the humans and the nature"
+- id: "work.item1.title"
+  translation: "Authenticity"
+- id: "work.item1.description"
+  translation: "In all cases you are accompanied by true people of the desert, descendants of the nomad tribes who know the desert like the back of their hands. Rest assured, you will never get lost."
+- id: "work.item2.title"
+  translation: "Ecology"
+- id: "work.item2.description"
+  translation: "The family Mamadou are concerned for the future of the desert and we make sure that we leave it as we find it; you will find us very careful not to harm the environment. Once the excursion is finished, all rubbish is disposed of appropriately. Because we care."
+- id: "work.item3.title"
+  translation: "Local guides"
+- id: "work.item3.description"
+  translation: "You will be accompanied by (depending on the size of your group), a guide, a cook and a camel driver. All people come from the region and know the desert better than their pocket. With them, there is no way you can get lost in the dunes."
+- id: "work.item4.title"
+  translation: "Atmosphere"
+- id: "work.item4.description"
+  translation: "Join us in the ambience and romance of the desert, witness the fire flickering and dancing following the sounds and rhythms of the songs. Singing, speaking, listening, interacting, discovering... Another way of living. When the time comes, either retire to your tent and join the God of dreams or spend the night under the stars."
+- id: "work.item5.title"
+  translation: "Nature"
+- id: "work.item5.description"
+  translation: "You will be surrounded with transcending nature. The Sahara desert is a marvel of our planet. We can't describe you how you will feel, this is something you have to live by yourself to understand why the locals, despite harsh conditions, love this place."
+- id: "work.item6.title"
+  translation: "Food"
+- id: "work.item6.description"
+  translation: "Enjoy the hospitality of the family Mamadou. At night, sometimes, you will sit around the fire and you'll taste food lovingly prepared. They taste totally different in the desert! After having sampled lamb tajines, fresh vegetables, Moroccan salad, bread cooked in the sand and of course, the couscous of the Sahara (semolina prepared by hand). It will seem to you that all previous dishes are tasteless in comparison."
+
+- id: "services.title"
+  translation: "Services"
+- id: "services.description"
+  translation: "You can choose to cover the desert by foot (trekking), on the back of a dromedary (domestic from Africa) or by 4x4. You can travel on your own, as a couple, as a family or with friends or colleagues, whatever you wish. The family Mamadou can create your own program; your wish is our desire."
+- id: "services.item1.title"
+  translation: "Adapted"
+- id: "services.item1.description"
+  translation: "Tours adapted to your physical capabilities, answering to your needs. We await your requirements."
+- id: "services.item2.title"
+  translation: "Camping"
+- id: "services.item2.description"
+  translation: "Camping in the heart of the dune Lemraire (10km after the door of the desert), Chegaga (The mother of the sand)."
+- id: "services.item3.title"
+  translation: "Comfort"
+- id: "services.item3.description"
+  translation: "Comfortable beds, toilets, showers and a hammam (Turkish bath) facilities at Chegaga."
+- id: "services.item4.title"
+  translation: "Care"
+- id: "services.item4.description"
+  translation: "Attentive staff always available to ensure your perfect holiday experience."
+- id: "services.item5.title"
+  translation: "Entertainment"
+- id: "services.item5.description"
+  translation: "Entertainment and catering on site: local dishes, jokes, music."
+- id: "services.item6.title"
+  translation: "Local"
+- id: "services.item6.description"
+  translation: "Authentic tents, traditional clothing, music from Berbers, Nomads and Harratines (3 tribes from the Drâa valley), a choice of meals to fulfill your dietary requirements. It's up to you."
+
+- id: "passion.title"
+  translation: "If you are passionate about..."
+- id: "passion.description"
+  translation: "The desert offer many wonders. Just adventure and capture them."
+- id: "passion.item1.title"
+  translation: "Photography"
+- id: "passion.item1.description"
+  translation: "The desert opens its arms to you. Don't miss the magnificent sunrises and sunsets, the incredible dunes, the beautiful trees and shrubs and of course, the brilliance of the nights with a full moon. It is worth having all these simple and magical moments you experience, as part of your personal collection, to give you another vision of the world."
+- id: "passion.item2.title"
+  translation: "Astronomy"
+- id: "passion.item2.description"
+  translation: "The nights of the desert offer all the opportunities for those who are passionate about the stars. Once comfortably settled in a dune, you can study without light pollution, the sky and its constellations. The desert is truly another planet."
+- id: "passion.item3.title"
+  translation: "Geology"
+- id: "passion.item3.description"
+  translation: "Spend a day to search for those fossils either by foot, a short distance from our camp or by 4x4 to the crystal mountains. Our guides will lead you to the best places for beautiful discoveries (ancient rock drawings, meet rare birds and wild animals in the nature)."
+
+- id: "gallery.title"
+  translation: "Gallery"
+- id: "gallery.description"
+  translation: ""
+
+- id: "testimonials.title"
+  translation: "Testimonials"
+- id: "testimonials.description"
+  translation: "None of them has ever managed to reach Timbuktu but it seems they enjoyed the experience."
+- id: "testimonials.item1.quote"
+  translation: "lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies"
+- id: "testimonials.item2.quote"
+  translation: "lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies"
+- id: "testimonials.item3.quote"
+  translation: "lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies lorem ipsum oospies"
+
+- id: "about.title"
+  translation: "About"
+- id: "about.description"
+  translation: "Born in Zagora. Be ready to enjoy the desert with me."
+- id: "about.position"
+  translation: "Certified guide"
+
+
+- id: contact.title
+  translation: "Get in touch"
+- id: contact.description
+  translation: "Afrique Nature - Brahim Ait Essaleh"
+- id: contact.name
   translation: "Name"
-- id: contactEmail
+- id: contact.email
   translation: "Email"
-- id: contactMessage
+- id: contact.phone
+  translation: "Phone"
+- id: contact.message
   translation: "Message"
-- id: contactSubmit
+- id: contact.submit
   translation: "Submit"
-- id: USP.quality
-  translation: "Quality"
-- id: USP.qualitySub
-  translation: "Good for the kids"
-- id: USP.trust
-  translation: "Trusted"
-- id: USP.trustSub
-  translation: "4 & 5 stars recommendations only"
-- id: USP.easy
-  translation: "easy"
-- id: USP.easySub
-  translation: "Stop searching & start finding"

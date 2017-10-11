@@ -14,34 +14,54 @@
                         <li><a href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
                     {{ end }}
 
-                    <li class="active"><a href="#" data-nav-section="home"><span>{{ with .Site.Params.navigation.home }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li class="active">
+                      <a href="#" data-nav-section="home">
+                        <span>
+                        {{ i18n .Site.Params.navigation.home | markdownify }}
+                        </span>
+                      </a>
+                    </li>
 
                     {{ if .Site.Params.work.enable }}
-                    <li><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li><a href="#" data-nav-section="work"><span>
+                    {{ i18n .Site.Params.navigation.work | markdownify }}
+                    </span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.services.enable }}
-                    <li><a href="#" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li><a href="#" data-nav-section="services"><span>
+                    {{ i18n .Site.Params.navigation.services | markdownify }}
+                    </span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.gallery.enable }}
-                    <li><a href="#" data-nav-section="gallery"><span>{{ with .Site.Params.navigation.gallery }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li><a href="#" data-nav-section="gallery"><span>
+                    {{ i18n .Site.Params.navigation.gallery | markdownify }}
+                    </span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.testimonials.enable }}
-                    <li><a href="#" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li><a href="#" data-nav-section="testimonials"><span>
+                    {{ i18n .Site.Params.navigation.testimonials | markdownify }}
+                    </span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.about.enable }}
-                    <li><a href="#" data-nav-section="about"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li><a href="#" data-nav-section="about"><span>
+                    {{ i18n .Site.Params.navigation.about | markdownify }}
+                    </span></a></li>
                     {{ end }}
 
                     {{ if .Site.Params.contact.enable }}
-                    <li><a href="#" data-nav-section="contact"><span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span></a></li>
+                    <li><a href="#" data-nav-section="contact"><span>
+                    {{ i18n .Site.Params.navigation.contact | markdownify }}
+                    </span></a></li>
                     {{ end }}
 
                     {{ range .Site.Menus.postpend }}
-                        <li><a href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+                        <li><a href="{{ .URL }}"><span>
+                        {{ .Name | markdownify }}
+                        </span></a></li>
                     {{ end }}
                 </ul>
             </div>
