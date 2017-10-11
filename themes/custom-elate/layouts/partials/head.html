@@ -2,6 +2,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> {{ .Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#5DBCD2">
+    <meta name="robots" content="index, follow">
 <!--     <meta name="description" content="Free HTML5 Template by FREEHTML5.CO - Hugo port by Pieter Saey" />
     <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive, hugo, static site" />
     <meta name="author" content="FREEHTML5.CO / Hugo port " />
@@ -86,11 +88,7 @@
 
     -->
     <link rel="stylesheet" href='{{ "css/style.css" | relURL }}'>
-    <!--
-       custom css files can be configured in config.toml:
-       [params]
-          custom_css = ["css/foo.css", "css/bar.css"]
-     -->
+
     {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ . }}">
     {{ end }}
