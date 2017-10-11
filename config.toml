@@ -6,7 +6,7 @@ theme = "custom-elate"
 
 [params]
 
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = []
 
   # Meta
   author = "Louis Hache"
